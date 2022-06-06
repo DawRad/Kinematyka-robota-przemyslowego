@@ -103,7 +103,7 @@ void CMechanizm::przekazWspolrzPp(SPunkt tabPp[])
 
     tabPp[7].x = p00_.x;
     tabPp[7].y = p00_.y;
-    tabPp[7].z = p00_.z;
+    tabPp[7].z = p00_.z;    
 }
 
 bool CMechanizm::sprawdzPunktyTPR()

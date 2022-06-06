@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 5.0.0, 2022-06-02T17:55:53. -->
+<!-- Written by QtCreator 5.0.0, 2022-06-06T16:26:35. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -137,8 +137,8 @@
     <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Folder_Dawida\Prace_me\Studia_Mchtr_AiR\VI_semestr\ZBR\Projekt_I_ver3\build-Projekt_I-Desktop_Qt_6_1_2_MinGW_64_bit-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">G:/Folder_Dawida/Prace_me/Studia_Mchtr_AiR/VI_semestr/ZBR/Projekt_I_ver3/build-Projekt_I-Desktop_Qt_6_1_2_MinGW_64_bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:/Folder_Dawida/Prace_me/Git/DawRad-projekty/Kinematyka-robota-przemyslowego/build-Projekt_I-Desktop_Qt_6_1_2_MinGW_64_bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">G:/Folder_Dawida/Prace_me/Git/DawRad-projekty/Kinematyka-robota-przemyslowego/build-Projekt_I-Desktop_Qt_6_1_2_MinGW_64_bit-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -177,8 +177,8 @@
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Folder_Dawida\Prace_me\Studia_Mchtr_AiR\VI_semestr\ZBR\Projekt_I_ver3\build-Projekt_I-Desktop_Qt_6_1_2_MinGW_64_bit-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">G:/Folder_Dawida/Prace_me/Studia_Mchtr_AiR/VI_semestr/ZBR/Projekt_I_ver3/build-Projekt_I-Desktop_Qt_6_1_2_MinGW_64_bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:/Folder_Dawida/Prace_me/Git/DawRad-projekty/Kinematyka-robota-przemyslowego/build-Projekt_I-Desktop_Qt_6_1_2_MinGW_64_bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">G:/Folder_Dawida/Prace_me/Git/DawRad-projekty/Kinematyka-robota-przemyslowego/build-Projekt_I-Desktop_Qt_6_1_2_MinGW_64_bit-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
