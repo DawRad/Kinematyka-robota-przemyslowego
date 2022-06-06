@@ -22,26 +22,57 @@ struct SKat
 
 class CMechanizm
 {         
-    int delta1_, delta2_, delta5_;                  // delty do przyjęcia przez użytkownika (1 lub (-1))
-    float l_1_, l_2_, l_3_, l_4_, l_5_, l_6_;       // l_i_ ---> długości członów
+    /// delty do przyjęcia przez użytkownika (1 lub (-1))
+    int delta1_, delta2_, delta5_;
+
+    /// l_i_ ---> długości poszczególnych członów (i - numer członu)
+    float l_1_, l_2_, l_3_, l_4_, l_5_, l_6_;
+
     float a_, b_;
-    SKat fi1_, fi2_, fi3_, fi4_, fi5_, fi234_, fi23_;             // współrzędne maszynowe poszczególnych członów
-    SKat psi_, teta_;                              // współrzędne wektora podejścia
-    float C1_, S1_, C2_, S2_, C23_, S23_, C234_, S234_, C3_, S3_, C4_, S4_, C5_, S5_;         // wartości danych cosinusów (C) i sinusów (S)
+
+    /// współrzędne maszynowe poszczególnych członów
+    SKat fi1_, fi2_, fi3_, fi4_, fi5_, fi234_, fi23_;
+
+    /// współrzędne wektora podejścia
+    SKat psi_, teta_;
+
+    /// wartości danych cosinusów (C) i sinusów (S)
+    float C1_, S1_, C2_, S2_, C23_, S23_, C234_, S234_, C3_, S3_, C4_, S4_, C5_, S5_;
+
     float d_, e_;
 
-    SPunkt pT_;                 // współrzędne punktu TCP
-    SPunkt pP_;                 // współrzędne punktu P
-    SPunkt pR_;                 // współrzędne punktu R
-    SPunkt p01_;                // współrzędne punktu 01
-    SPunkt p0prim1_;            // współrzędne punktu 0'1
-    SPunkt p02_;                // współrzędne punktu 02
-    SPunkt p0prim2_;            // współrzędne punktu 0'2
-    SPunkt p00_;                // współrzędne punktu 00
+    /// współrzędne punktu TCP
+    SPunkt pT_;
+
+    /// współrzędne punktu P
+    SPunkt pP_;
+
+    /// współrzędne punktu R
+    SPunkt pR_;
+
+    /// współrzędne punktu 01
+    SPunkt p01_;
+
+    /// współrzędne punktu 0'1
+    SPunkt p0prim1_;
+
+    /// współrzędne punktu 02
+    SPunkt p02_;
+
+    /// współrzędne punktu 0'2
+    SPunkt p0prim2_;
+
+    /// współrzędne punktu 00
+    SPunkt p00_;
 
     SPunkt pTspr_, pPspr_, pRspr_;
 
 public:
+    /**
+     * @brief Konstruktor klasy CMechanizm
+     *
+     * Ustawia początkowe wartości pól klasy
+     */
     CMechanizm();
 
     void wyznaczWspolrzMech();
@@ -87,13 +118,39 @@ public:
     bool czyZetyUjemne();
 
 private:
+    /**
+     * @brief Metoda wyznacza wartości współrzędnych punktu P
+     */
     void oblicz_pP();
+
+    /**
+     * @brief Metoda wyznacza wartości współrzędnych punktu R
+     */
     void oblicz_pR();
+
+    /**
+     * @brief Metoda wyznacza wartości współrzędnych punktu 01
+     */
     void oblicz_p01();
+
+    /**
+     * @brief Metoda wyznacza wartości współrzędnych punktu 0'1
+     */
     void oblicz_p0prim1();
+
+    /**
+     * @brief Metoda wyznacza wartości współrzędnych punktu 02
+     */
     void oblicz_p02();
+
+    /**
+     * @brief Metoda wyznacza wartości współrzędnych punktu 0'2
+     */
     void oblicz_p0prim2();
 
+    /**
+     * @brief Metoda wyznacza wartości współczynników a i b
+     */
     void oblicz_ab();
 
     void oblicz_fi1_();
