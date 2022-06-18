@@ -6,7 +6,7 @@ Aplikacja umożliwiająca przeprowadzenie symulacji przejścia mechanizmu 6-osio
 Powstał na potrzeby przedmiotu Zasady Budowy Robotów, realizowanego w ramach studiów na kierunku Robotyka. 
 Projekt został wykonany w ramach 2-osobowego zespołu. Do mojej części pracy zalicza się zawarta w niniejszym repozytorium implementacja wcześniej opracowanych funkcji obliczających poszczególne parametry mechanizmów z wykorzystaniem metod i atrybutów klasy <i>CMechanizm</i>.
 
-Oprócz tego przygotowałem klasy graficzne odpowiedzialne za interfejs graficzny użytkownika, a także wyrysowanie na ekranie aplikacji członów mechanizmu oraz symulacje ich przejścia - <i>CRysRobota</i><i>UserGuide</i>.
+Oprócz tego przygotowałem klasy graficzne odpowiedzialne za interfejs graficzny użytkownika, a także wyrysowanie na ekranie aplikacji członów mechanizmu oraz symulacje ich przejścia - <i>CRysRobota</i>, <i>UserGuide</i>.
 </p>
 
 ## Wykorzystane biblioteki
